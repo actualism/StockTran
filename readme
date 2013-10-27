@@ -1,0 +1,16 @@
+October 27th, 2013
+
+I wrote this program for my Data Structures and Intro. to Algorithms class. It implements a circular queue to store up to 31 transactions.
+
+Sample input
+b 100 200 	<--- buy 100 stocks @ $200 each
+s 40 50 	<--- sell 40 stocks @ $50 each
+c 			<--- print capital gain
+q 			<--- quit
+
+Some bugs I encountered:
+
+How to handle blank or invalid input
+Selling when no transactions were stored
+Buying when the transaction queue was full
+Selling stocks from different days (i.e. selling more stocks than those stored in the first index)
